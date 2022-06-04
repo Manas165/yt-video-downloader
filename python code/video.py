@@ -62,5 +62,4 @@ def download_video(Link , Resolution):
 
     # os.remove(input_video)
     # os.remove(input_audio)
-    
-download_video("https://youtu.be/xvhEHpETvTo", "240p")
+   
