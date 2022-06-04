@@ -3,58 +3,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <EditText
-        android:id="@+id/linkinput"
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="201dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginRight="23dp"
-        android:layout_marginBottom="723dp"
-        android:background="#CCCCCC"
-        android:ems="10"
-        android:inputType="textPersonName">
 
-        <requestFocus />
-    </EditText>
+<!--    <EditText-->
+<!--        android:id="@+id/linkinput"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="11dp"-->
+<!--        android:layout_marginRight="11dp"-->
+<!--        android:layout_marginBottom="600dp"-->
+<!--        android:background="#CCCCCC"-->
+<!--        android:ems="8"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:hint=" video link "-->
+<!--        android:inputType="textPersonName" />-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/linkinput"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="596dp"
+        android:background="@drawable/round_element"
+        android:elegantTextHeight="true"
+        android:elevation="5dp"
+        android:ems="8"
+        android:textAlignment="center"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/link"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="205dp"
+        android:layout_height="64dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="338dp"
-        android:layout_marginRight="338dp"
-        android:layout_marginBottom="726dp"
-        android:fontFamily="@font/balsamiq_sans"
-        android:text="Enter Video Link "
+        android:layout_marginEnd="197dp"
+        android:layout_marginRight="197dp"
+        android:layout_marginBottom="586dp"
+        android:background="@drawable/round_textview"
+        android:elegantTextHeight="true"
+        android:elevation="8dp"
+        android:fontFamily="@font/capriola"
+        android:text=" Enter the Video Link "
+        android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="25dp" />
+
+        android:textSize="23dp" />
 
     <EditText
         android:id="@+id/resinput"
         android:layout_width="wrap_content"
-        android:layout_height="42dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="48dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="253dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginRight="23dp"
-        android:layout_marginBottom="667dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="515dp"
         android:background="#CCCCCC"
-        android:ems="10"
-        android:inputType="textPersonName">
-
-        <requestFocus />
-    </EditText>
+        android:ems="8"
+        android:focusableInTouchMode="true"
+        android:hint="resolution of video ex:360p"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/res"
@@ -63,47 +78,13 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="339dp"
-        android:layout_marginRight="339dp"
-        android:layout_marginBottom="670dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:layout_marginBottom="522dp"
         android:fontFamily="@font/balsamiq_sans"
         android:text="Enter Resolution"
         android:textColor="#000000"
-        android:textSize="25dp" />
-
-    <EditText
-        android:id="@+id/formatinput"
-        android:layout_width="wrap_content"
-        android:layout_height="37dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="317dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginBottom="608dp"
-        android:background="#CCCCCC"
-        android:ems="10"
-        android:inputType="textPersonName">
-
-        <requestFocus />
-    </EditText>
-
-    <TextView
-        android:id="@+id/format"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="361dp"
-        android:layout_marginRight="361dp"
-        android:layout_marginBottom="609dp"
-        android:fontFamily="@font/balsamiq_sans"
-        android:text="Enter Format"
-        android:textColor="#000000"
-        android:textSize="25dp" />
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/download"
@@ -116,9 +97,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginEnd="131dp"
-        android:layout_marginRight="131dp"
-        android:layout_marginBottom="506dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="365dp"
         android:fontFamily="@font/balsamiq_sans"
         android:text="Download Video"
         android:textColor="#000000" />
